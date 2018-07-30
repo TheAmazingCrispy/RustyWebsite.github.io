@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Base Builds</title>
+</head>
+
+	<style>
+	
+			.header {
+    background-color: #b3ffb3;
+    text-align: center;
+    padding: 10px;
+}
+
+		
+		/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+		
+		/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+		
+		/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+	
+		
+			* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+		
+	/* Style the top navigation bar */
+  .topnav {
+      overflow: hidden;
+      background-color: green;
+  }
+	
+
+  /* Style the topnav links */
+  .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+		.active {
+  background-color: #717171;
+			
+  /* Change color on hover */
+  .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+				.header {
+    background-color: #b3ffb3;
+    text-align: center;
+    padding: 10px;
+					
+	</style>
+	
+<body style="background-color:powderblue;">
+	
+	<div class="header">
+		
+	  <h1 style="font-size:75px;">RUST -- Base Builds</h1>
+	</div>
+<div class="topnav">
+	<a href="My DW.html">Home</a>
+  <a href="weapons.html" target="_blank">Weapons</a>
+  <a href="Base Builds.html" target="_blank">Base Builds</a>
+  <a href="House Defence.html" target="_blank">House Defence</a>
+  <a href="Food and Hunger.html" target="_blank">Food & Hunger</a>
+	<a href="Environment.html" target="_blank">Environment</a>
+	<a href="Status Effect.html" target="_blank">Status Effect</a>
+	<a href="Components.html" target="_blank">Components</a>
+	<a href="Trading.html" target="_blank">Trading</a>
+	<a href="Youtubers.html" target="_blank">Youtubers</a>
+	<a href="Raw Code.html" target="_blank">Raw Code</a>
+</div>
+<h3>Bases in Rust;</h3>
+	<h10>In Rust you have the freedom to make your base just about any way you want. But there are a few things that all good bases have in common.</h10>
+<div class="row">
+  <div class="column">
+    <h2>Locks & Doors</h2>
+    <h10>Locks;</h10>
+	  <br>
+<p>
+	  While key locks are great for the beginning of the game, you’ll want to upgrade to code locks as soon as possible. Key locks no longer require a key for the player that placed the lock (which is great for a solo player), however, they’re extremely annoying to deal with if you play with anyone else. <br><br>
+
+A code lock allows you to enter the code once and you can automatically open the door whenever, just make sure to never give your base codes out to strangers!<br><br>
+
+		Doors;<br>
+<br>
+
+Wood doors are good for starting out with, however you will want to switch to first sheet metal, then armored doors as quickly as possible. At 200 health, wood doors can be taken down in less than a minute with a flamethrower, and nearly as quickly with Eoka pistols or shotguns using handmade shells.<br><br>
+
+
+
+Sheet Metal doors can hardly be called an upgrade. While they can’t be burned down, only going up to 250 health means they only take a single C4 or a 4 satchel charges to get blasted down.<br><br>
+
+
+
+Garage doors fill a double-doorway socket. They are stronger than sheet metal doors, but weaker than armored doors.<br><br>
+
+
+
+Armored doors are difficult to find, expensive to learn as well as craft, and require a level 3 workbench to craft. It will keep you exponentially safer, as well as letting people know you’re not to be messed with. At 800 health, they can’t be beaten down from the outside and take 2 C4 to fall.<br><br>
+
+<!--Start Of Slideshow -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Key Lock.jpg" style="width:100%">
+  <div class="text">Key Lock on Wood Door</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Code Lock.jpg" style="width:100%">
+  <div class="text">Code Lock on Wood Door</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Doors.jpg" style="width:100%">
+  <div class="text">Different types of doors</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+</script>
+	
+		
+		
+	  
+	  </p>
+  </div>
+  <div class="column">
+    <h2>Tool Cupboard & Upgrades</h2>
+    <p>
+	Tool Cupboards;<br>
+<br>
+	
+	This is the single most important item in your base.<br>
+<br>
+ Whomever has access to your tool cupboard can build, upgrade, and demolish in your building authorized area. Make sure that only completely trusted people have access and that it’s extremely hard to get to.<br>
+<br>
+ A tool cupboard prevents most building and all upgrading within its building privilege zone for players not authorized. This zone extends 16 meters out from each outer building component such as a wall or foundation.<br>
+<br>
+The tool cupboard can be placed anywhere in your build and covers any connected wall or foundation. You add resources to the tool cupboard, and the cupboard reports how many resources are required to avoid decay with 16 storage slots to hold building materials that are depleted over time.<br>
+<br>
+Twig floors and ladders can be placed within building privilege zones without tool cupboard access.<br>
+<br>
+Upgrades;<br><br>
+
+Wood is the weakest at 250 health per wall. It can be shredded by fire and hatchets, and costs 200 wood to upgrade. Easy and quick to upgrade to, but just having a wood base makes you a huge target.  You’ll want to upgrade as soon as you can to avoid losing everything to a single flamethrower.<br><br>
+
+
+
+Stone is second up, at 500 health per wall. It is completely immune to fire but can be picked down by pickaxes. It costs 300 stone to upgrade.<br><br>
+
+
+
+Sheet Metal comes in third at 1000 health per wall. It’s immune to fire, and is also almost completely immune to melee weapons from the outside, most breaking before dealing a single point of damage. At a cost of only 200 metal fragments to upgrade, it’ll make you look that much more menacing.<br><br>
+
+
+
+Armored is the strongest upgrade at a whopping 2000 health points. It’s immune to fire as well as melee weapons and tools from the outside. Not the best without reason, it costs 25 high quality metal to upgrade to armored. Because of the steep high quality metal cost, these upgrades are rarely seen outside of massive groups, and usually only at the very core of bases.<br><br>
+
+<!--Start Of Slideshow -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Tool Cupboard.jpg" style="width:100%">
+  <div class="text">Tool Cupboard in a base</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Upgrades.jpg" style="width:100%">
+  <div class="text">Different tiers of walls</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Doors.jpg" style="width:100%">
+  <div class="text">Different types of doors</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+		
+</p>
+  </div>
+  <div class="column">
+    <h2>Airlock & Softside Vs. Hardside</h2>
+    <p>
+		Airlocks;<br>
+<br>
+
+	An airlock is where you have two or more doors between the innermost part of your base and  the outside. It assures that if someone chases you to your base or door camps you, they won't immediately have access to your loot. The bigger your base, the more airlocks you’ll want/need.<br>
+<br>
+	Softside Vs. Hardside<br><br>
+One of the most important parts to upgrading, accidentally leaving your walls with the soft side facing out can make your upgrades nearly useless. <br>
+<br>
+
+
+Wood walls can be beat down to 11 health with a single hatchet from the soft side, then easily finished off with anything else. The hard side takes 3 hatchet hits to do 1 point of damage.<br>
+<br>
+
+
+Stone walls from the outside take one damage per 8 pickaxe hits, but from the soft side takes 1.2 damage every hit (7 pickaxes for one stone wall).<br>
+<br>
+
+
+Sheet Metal, while being near impervious to melee from the outside, will take 1 damage every 2 pickaxe hits, as well as take damage from other tools. Armored can, albeit slower, also be picked down from the soft side with tools.<br>
+<br>
+
+
+The tops of foundations will take damage as soft sides, and ceilings will be soft side from underneath and hard side from above.<br>
+<br>
+
+
+While these numbers may seem ridiculous, if you have a group of 5 people all pickaxing through soft side walls and ceilings, they will make quick work of any base like annoying little termites.<br>
+<br>
+
+<!--Start Of Slideshow -->
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="SoftSide.jpg" style="width:100%">
+  <div class="text">The "Softside" of walls</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Airlock.jpg" style="width:100%">
+  <div class="text">An Airlock in a base</div>
+</div>
+	
+	<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+</div>
+
+</p>
+  </div>
+</div>
+
+</body>
+</html>
